@@ -2,11 +2,14 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+RssAggregator
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+*.vscode/
+
 
 # Test binary, built with `go test -c`
 *.test
@@ -14,6 +17,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# Configurations
+*.env
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
