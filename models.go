@@ -63,7 +63,7 @@ func databaseFeedsToFeeds(dbFeeds []database.Feed) []Feed {
 
 func databaseFeedFollowToFeedFollow(dbFeedFollow database.FeedFollow) FeedFollow {
 	return FeedFollow{
-		ID:        dbFeedFollow.FeedID,
+		ID:        dbFeedFollow.ID,
 		CreatedAt: dbFeedFollow.CreatedAt,
 		UpdatedAt: dbFeedFollow.UpdatedAt,
 		UserID:    dbFeedFollow.UserID,
